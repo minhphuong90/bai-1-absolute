@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 2000px;
+    height: 600px;
+    margin: 0 auto;
+}
+.box{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    border: solid 1px grey;
+    vertical-align: top;
+    position: relative;
+}
+.m1-4{
+    margin-left: -4px;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+}
+.orange{
+    background: linear-gradient(270deg, #E4631B 10.25%, rgba(243, 125, 40, 0.46) 138.5%);
+    top: 40px;
+    left: 50px;
+    z-index: 10;
+}
+.blue{
+    background: linear-gradient(270deg, #409DE7 10.25%, #6CBCFC 138.5%);
+    top: 140px;
+    left: 150px;
+}
+.pink{
+    background: linear-gradient(270deg, #FAC3CA 10.25%, #6CBCFC 138.5%);
+    bottom: 100px;
+    right: 450px;
+}
+/* box */
+
+.card{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 24px;
+    position: relative;
+}
+.border{
+    width: 265px;
+    height: 265px;
+    border: solid 8px #6CBCFC;
+}
+.feature-img{
+    width: 265px;
+    height: 265px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.feature-img img{
+    width: 100%;
+}
+.feature-img2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.feature-img2 img{
+    height: 100%;
+}
+.labor-new{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: white;
+    background-color: #E4631B;
+    border-radius: 10px;
+    padding: 5px 0;
+    
+}
